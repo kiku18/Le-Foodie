@@ -67,7 +67,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 const NavBar = () => {
-  const [anchorEl, setAnchorEl] = useState(null);
   const [megaMenuEl, setMegaMenuEl] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredFoods, setFilteredFoods] = useState(Foods);
@@ -124,15 +123,6 @@ const NavBar = () => {
       { name: "Muffin", icon: <CakeIcon /> },
       { name: "Scone", icon: <CakeIcon /> },
     ],
-  };
-
-  const handleMenuOpen = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleMenuClose = () => {
-    setAnchorEl(null);
-    setMegaMenuEl(null);
   };
 
   const handleMegaMenuOpen = (event, item) => {

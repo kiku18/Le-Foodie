@@ -12,7 +12,7 @@ import './PrivateAuthPage.css';
 const PrivateAuthPage = () => {
   const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
-  const { addToCart, removeFromCart, cartItems } = useCart();
+  const { addToCart, removeFromCart } = useCart(); // Removed unused cartItems
 
   useEffect(() => {
     if (!isAuthenticated) {

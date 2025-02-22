@@ -1,0 +1,84 @@
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Heading Styles */
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Filter Section Styles */
+.filter-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sort-filter,
+.price-slider {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Cards Container Styles */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card Wrapper Styles */
+.card-wrapper {
+  width: 300px;
+}
+
+/* Card Styles */
+.card {
+  transition: transform 0.2s;
+  background-color: white !important; /* Override theme background color */
+  border-radius: 4px; /* Custom border radius */
+  /* Add other custom styles */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: transparent !important; /* Ensure no hover effect */
+  /* Add other hover styles if needed */
+}
+
+.card img {
+  object-fit: cover;
+}
+
+/* Snackbar Custom Styles */
+.custom-snackbar {
+  top: 60px !important; /* Adjust the top position to sit below the nav bar */
+  right: 14px !important; /* Adjust the right position as needed */
+  margin-top: 10px; /* Add margin to create space below the nav bar */
+  padding: 6px; /* Add padding for better visual appearance */
+}
+
+.custom-snackbar .MuiSnackbarContent-root {
+  background-color: white; /* Optional: Change the Snackbar background color */
+}
+
+.custom-snackbar .MuiLinearProgress-root {
+  width: 100px; /* Set the width of the progress bar */
+}
+
+.progress-add .MuiLinearProgress-bar1Determinate {
+  background-color: green !important; /* Set the progress bar color to green for adding */
+}
+
+.progress-remove .MuiLinearProgress-bar1Determinate {
+  background-color: red !important; /* Set the progress bar color to red for removing */
+}

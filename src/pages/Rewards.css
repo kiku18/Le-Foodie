@@ -1,0 +1,31 @@
+/* Rewards.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.reward-card {
+  margin: 20px;
+  padding: 20px; /* Maintain padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden; /* Prevent image overflow */
+}
+
+.reward-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-media {
+  height: auto;
+  max-height: 220px; /* Ensure the image height doesn't exceed this value */
+  max-width: 100%; /* Ensure the image width doesn't exceed this value */
+  object-fit: cover; /* Ensure the image covers the container without cropping */
+}
+
+.card-content {
+  padding: 16px;
+}

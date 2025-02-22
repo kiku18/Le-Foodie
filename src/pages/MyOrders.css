@@ -1,0 +1,92 @@
+/* Container Styles */
+.container {
+    padding: 20px;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #ffa500; /* Orange background on hover */
+}
+
+/* Flexbox Styles */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-wrapper {
+    flex: 0 1 calc(25% - 20px); /* 25% width with some gap for margins */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Heading Styles */
+.heading {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-top: auto;
+    text-align: center;
+    text-decoration: wavy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffa500;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    border-radius: 10px; /* Round edges */
+    overflow: hidden;
+    color: black; /* Default color */
+}
+
+/* Button Styles */
+button.remove-button {
+    margin-top: 10px;
+    background-color: #ffa500; /* Custom button color */
+    border: none; /* Remove border */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover button.remove-button {
+    background-color: #007bff; /* Blue background on hover */
+}
+
+button.remove-button:hover {
+    background-color: #0056b3; /* Darker blue on button hover */
+}
+
+/* Total Price Styles */
+.total-price {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Checkout Button Styles */
+.checkout-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.checkout-button:hover {
+    background-color: #ff9800;
+}

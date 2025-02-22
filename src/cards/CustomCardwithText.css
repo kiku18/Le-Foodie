@@ -1,0 +1,46 @@
+.custom-card-with-text {
+  position: relative;
+  width: 372px;
+  color: white !important;
+  background-color: #fff !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.custom-card-with-text:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card-media {
+  height: 320px;
+  filter: none; /* Remove any filter applied for dark overlay */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background: transparent; /* Ensure the background is transparent */
+}
+
+.overlay-title {
+  font-size: 0.8rem !important;
+  font-weight: bold !important;
+}
+
+.overlay-description {
+  font-size: 1.25rem !important;
+  font-weight: bolder !important;
+}
+
+

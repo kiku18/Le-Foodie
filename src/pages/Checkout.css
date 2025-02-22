@@ -1,0 +1,90 @@
+/* Checkout.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.checkout-heading {
+  text-align: center;
+  color: #ff5722; /* Changed to orange color */
+  margin-bottom: 30px;
+}
+
+.stepper {
+  margin-bottom: 30px;
+}
+
+.section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.MuiOutlinedInput-root {
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 8px;
+  background-color: #f0f0f0; /* Match JS styled component */
+}
+
+.MuiOutlinedInput-root:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #ddd; /* Match JS styled component */
+}
+
+.MuiInputLabel-outlined {
+  color: #555; /* Match JS styled component */
+}
+
+/* Styles for illustrations */
+.illustration-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.illustration {
+  height: 400px; /* Updated height */
+  width: 600px; /* Updated width */
+}
+
+.invoice {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.invoice-detail {
+  margin-bottom: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Added gap between buttons */
+}
+
+.MuiButton-contained {
+  background-color: #1976d2;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.MuiButton-contained:hover {
+  background-color: #1565c0;
+}

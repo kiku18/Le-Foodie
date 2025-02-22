@@ -1,0 +1,122 @@
+/* Heading */
+.heading { 
+  font-size: 28px; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+  text-align: center; 
+  color: #ff5722; 
+  text-transform: uppercase; 
+  letter-spacing: 1.5px; 
+  font-family: 'Lobster','Courier New', Courier, monospace; /* Font added */
+}
+
+/* Body text */
+body { 
+  font-family: 'Open Sans', sans-serif; /* Font added */
+}
+
+/* Container */
+.container { 
+  padding: 20px; 
+}
+
+/* Flexbox styles */
+.cards-container { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+.card-wrapper { 
+  flex: 0 1 calc(25% - 20px); 
+  box-sizing: border-box; 
+  padding: 10px; 
+}
+.card { 
+  transition: transform 0.2s; 
+}
+.card:hover { 
+  transform: scale(1.05); 
+}
+
+/* Filter section styles */
+.filter-section { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+  padding: 10px; 
+  border-radius: 10px; 
+  background-color: #f1f1f1; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  min-height: 50px; /* Minimum height adjustment */ 
+}
+.filter-section .MuiIconButton-root { 
+  background-color: #fff; 
+  border-radius: 50%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); 
+  transition: transform 0.2s; 
+}
+.filter-section .MuiIconButton-root:hover { 
+  transform: scale(1.1); 
+}
+.filter-section .sort-filter { 
+  min-width: 200px; 
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  border: none; 
+  outline: none; 
+}
+.filter-section .sort-filter .MuiSelect-select { 
+  padding-left: 16px; 
+  padding-right: 16px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+.filter-section .sort-filter .MuiSelect-select:focus { 
+  background-color: transparent; 
+}
+.filter-section .sort-filter .MuiOutlinedInput-notchedOutline { 
+  border: none; 
+  outline: none; 
+}
+
+/* Price slider */
+.price-slider { 
+  min-width: 200px; 
+}
+.price-slider .MuiSlider-root { 
+  color: #ff5722; 
+  height: 4px; /* Lighter slider thickness */ 
+}
+.price-slider .MuiSlider-thumb { 
+  width: 12px; 
+  height: 12px; 
+  background-color: #ff5722; 
+}
+
+/* Modal styles */
+.modal-box { 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 300px; 
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.new-arrivals .card {
+  /* Your custom styles */
+  background-color: white !important; /* Override theme background color */
+  border-radius: 4px;
+  /* Add other custom styles */
+}
+
+.new-arrivals .card:hover {
+  background-color: transparent !important; /* Ensure no hover effect */
+  /* Add other hover styles if needed */
+}

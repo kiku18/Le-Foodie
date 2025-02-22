@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.Label {
+    font-family: 'Poppins', sans-serif; /* Use the Roboto Flex font for a modern look */
+    color: #008080; /* Teal color for a fresh and modern look */
+    margin-bottom: 20px; /* Spacing below the heading */
+    margin-top: 20px; /* Spacing above the heading */
+    text-align: left; /* Left align the text */
+    text-transform: uppercase; /* Uppercase for the label text */
+    letter-spacing: 1px; /* Add some spacing between letters */
+}

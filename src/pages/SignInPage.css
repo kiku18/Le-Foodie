@@ -1,0 +1,48 @@
+/* SignInPage.css */
+
+.sign-in-container {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  margin: 1;
+  background-color: #f50057; /* secondary.main color */
+  transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.avatar:hover {
+  background-color: #800080; /* Purple color on hover */
+}
+
+.form {
+  margin-top: 8px;
+  width: 100%; /* Fix IE11 issue */
+}
+
+.submit {
+  margin: 24px 0; /* Provide margin to give space between buttons */
+}
+
+.google-sign-in {
+  margin-top: 16px; /* Add top margin to separate the buttons */
+  margin-bottom: 24px; /* Add bottom margin to give more space */
+}
+
+.link-button {
+  text-decoration: none;
+  color: #1976d2; /* Link color */
+}
+
+.link-button:hover {
+  text-decoration: underline;
+  color: #0039cb; /* Darker blue on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,45 @@
+.review-card {
+    width: 368px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .review-avatar {
+    width: 45px; /* Increased size for better visibility */
+    height: 45px;
+    margin-right: 8px;
+    border-radius: 50%; /* Ensure it's circular */
+    object-fit: cover; /* Ensure the image fits within the avatar */
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .review-card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+  
+  .comment {
+    margin: 8px 0;
+    flex-grow: 1;
+    text-align: left; /* Ensure comments are left-aligned */
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-footer .MuiTypography-root {
+    margin-left: 4px;
+  }
+  

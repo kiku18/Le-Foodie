@@ -1,0 +1,38 @@
+.circular-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent; /* Ensure the background is transparent */
+  padding: 2px;
+  margin: 2px;
+  border: none;
+}
+
+.circular-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: transparent; /* Ensure the card background is transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 2px;
+  border: none;
+}
+
+.circular-card-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire circular area */
+  border-radius: 50%;
+  background-color: transparent; /* Ensure the image background is transparent */
+  border: none; /* Remove any border */
+}
+
+.circular-card-title {
+  margin-top: 10px;
+  text-align: center;
+  color: #2c3e50;
+}

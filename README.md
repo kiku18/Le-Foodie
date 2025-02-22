@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Foodie - Food Ordering Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Foodie
 
-## Available Scripts
+**Foodie** is a comprehensive multi-page food ordering platform designed with **React** and **Material-UI** to provide a seamless and engaging user experience. The website encompasses various features and functionalities to cater to the needs of both casual users and avid food enthusiasts.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+### 1. User Authentication
+- The website features a **secure login page** where users can authenticate using credentials managed by the **Fakestore API**. Integration with **Axios** facilitates efficient data fetching and handling, ensuring a smooth login experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Dynamic Navigation Bar
+- **Foodie** boasts an intuitive navigation bar that dynamically updates post-authentication to offer a personalized experience. This nav bar includes a **mega menu** with multiple tabs, providing easy access to different sections of the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. User-Friendly Interface
+- The website is designed with user-friendliness in mind, incorporating **Material-UI** components to deliver a clean and modern look. The interface includes:
+  - An **accordion** section in the FAQ page, allowing users to expand and collapse questions for more information.
+  - Various sections to navigate through, ranging from browsing food items to completing the checkout process.
 
-### `npm test`
+### 4. Food Selection and Ordering
+- Users can browse and filter a diverse range of food items. Each item includes detailed descriptions, prices, and images to help users make informed choices.
+- The ordering process is streamlined, enabling users to add items to their cart, adjust quantities, and proceed to checkout with ease.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. Checkout and Invoice Generation
+- The checkout process is designed to be quick and secure, allowing users to review their orders and enter payment information.
+- Upon successful order placement, users can **download an invoice** for their purchase, providing a detailed summary of their transaction.
 
-### `npm run build`
+## Additional Functionalities
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Search and Filter Options
+- Users can utilize robust search and filter options to quickly find their desired food items based on categories, price ranges, and other criteria.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### User Account Management
+- Users can manage their accounts, view order history, and update personal information through their profile page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Design Considerations
 
-### `npm run eject`
+- **Plain Box Container Design:** The design of the website does not rely on Figma files. Instead, a **plain box container design** approach has been adopted to ensure simplicity and ease of development.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In essence, **Foodie** is a well-rounded food ordering website that combines aesthetic appeal, functional efficiency, and user-centric design to deliver an exceptional online food ordering experience. Whether you're looking to grab a quick bite or planning a lavish meal, Foodie has got you covered!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## What is this website made of?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The webpage contains the following:
 
-## Learn More
+- React Material UI icons
+- Material-UI
+- Fakestore API for login
+- Food JSON for rendering (A JSON created for our food website)
+- Use of Routes (React Router version 6)
+- Use of Axios
+- Authentication and private route for login
+- Filter food items using UseState hook (improved filter functionality from Le Catering)
+- Used React hooks like UseState, UseEffect, and UseContext
+- Webpage designed using Material-UI and JSX
+- Framer Motion for animations in the About page
+- Login, logout, and checkout sections
+- Ability to download the invoice of your order
+- Functional search bar to find specific food items
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Log in details of the website
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Username: mor_2314
+- Password: 83r5^_
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Note:
+This invoice is simple. In the website's New Arrivals section and in the Privateauthpage, the Rupee symbol is used. However, since jspdf does not support the Rupee symbol, the dollar symbol is used in the My Order page and in the Checkout as well.

@@ -38,7 +38,7 @@ const Footer = () => {
             <Box className="payment-methods">
               <img src="https://logos-world.net/wp-content/uploads/2020/05/Visa-Logo.jpg" alt="Visa" className="payment-icon" />
               <img src="https://logos-download.com/wp-content/uploads/2016/03/Mastercard_Logo_1990.png" alt="Mastercard" className="payment-icon" />
-              <img src="https://static-00.iconduck.com/assets.00/amex-icon-2048x1286-jssggdy1.png" alt="American Express" className="payment-icon" />
+              <img src="https://logos-world.net/wp-content/uploads/2020/11/American-Express-Logo.png" alt="American Express" className="payment-icon" />
               <img src="https://w7.pngwing.com/pngs/419/305/png-transparent-paytm-hd-logo.png" alt="Paytm" className="payment-icon" />
               <img src="https://cdn.worldvectorlogo.com/logos/phonepe-1.svg" alt="PhonePe" className="payment-icon" />
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBJTq51pWH1HHjzTxDZPyJu6tT7WaQwsLwQ&s" alt="BharatPe" className="payment-icon" />

@@ -57,6 +57,7 @@ The webpage contains the following:
 - Webpage designed using Material-UI and JSX
 - Framer Motion for animations in the About page
 - Login, logout, and checkout sections
+- Used JsPDF to generate invoice
 - Ability to download the invoice of your order
 - Functional search bar to find specific food items
 
